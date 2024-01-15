@@ -1,0 +1,58 @@
+.landing{
+    padding: 1rem 0.5rem;
+}
+
+
+
+.nav-heading{
+    font-size: 1.5rem;
+}
+
+.landing-content{
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+.landing-header{
+    
+    text-align: center;
+    font-size: 1.5rem;
+    text-wrap: pretty;
+}
+
+.landing-subheading{
+    font-size: 0.60rem;
+    text-align: center;
+}
+
+.sow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.sow-elem{
+    height: 1.5rem;
+}
+
+.sow-mid{
+    display: flex;
+    align-items: center;
+    background-color: teal;
+    padding: 0.25rem 0.5rem;
+    border-radius: 1rem;
+    gap: 0.25rem;
+    color: rgb(247, 244, 244);
+}
+
+.landing-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+}
