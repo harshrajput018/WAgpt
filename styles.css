@@ -28,6 +28,8 @@
 .landing-subheading{
     font-size: 0.75rem;
     text-align: center;
+    color: grey;
+    line-height: 1.15rem;
 }
 
 .sow{
@@ -82,6 +84,7 @@
     font-size: 0.75rem;
     color: white;
     text-align: center;
+    line-height: 1.15rem;
     
 }
 
@@ -90,6 +93,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    letter-spacing: 0.009rem;
 }
 
 .allUseCases{
@@ -105,9 +109,11 @@ body{
     padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     font-size: 0.9rem;
     gap: 1rem;
     border-radius: 1rem;
+    height: 200px;
 }
 
 .useCaseCard a{
@@ -120,4 +126,290 @@ body{
     font-weight: 600;
 }
 
+.useCaseCardContent{
+    color: grey;
+    line-height: 1.15rem;
+}
 
+
+.howHeading{
+    font-size: 1.65rem;
+    text-align: center;
+}
+.howSubHeading{
+    font-size: 0.75rem;
+    text-align: center;
+    color: grey;
+    line-height: 1.15rem;
+}
+
+.howItWorks{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.howContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    gap: 1rem;
+    width: 100%;
+}
+
+.howCard{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    font-size: 0.9rem;;
+}
+
+.howCardRight{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.howCardContent{
+    color: grey;
+    line-height: 1.15rem;
+    
+}
+
+.howCardTitle{
+    line-height: 1.15rem;
+}
+.howCardLeft{
+    
+    padding: 40px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: teal;
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.benefits{
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.benefitsSubHeading{
+    font-size: 1.65rem;
+}
+.benefitsHeading{
+    color: teal;
+}
+
+.benefitsContent{
+    color: grey;
+    font-size: 0.9rem;
+    line-height: 1.15rem;
+}
+
+.reviews{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,teal,rgb(102, 203, 141));
+    border-radius: 1rem;
+}
+
+.reviewContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.reviewCard{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    
+}
+
+.reviewCardContent{
+    font-size: 0.65rem;
+}
+
+.reviewCardTitle{
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.reviewCardAuthor{
+    display: flex;
+    font-size: 0.65rem;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.reviewHeading{
+    font-weight: 600;
+}
+
+.pricing{
+    background:linear-gradient(to bottom,white, rgb(152, 231, 208));
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricingHeading{
+    font-size: 1.65rem;
+}
+
+.pricingSubHeading{
+    text-align: center;
+    font-size: 0.75rem;
+    color: grey;
+    line-height: 1.15rem;
+}
+
+.pricingContent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.pricingCard{
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: lightblue;
+    gap: 0.5rem;
+    background:linear-gradient(to bottom,white, rgb(152, 231, 208));
+    border-radius: 1rem;
+    box-shadow: 10px 10px 3px 3px rgb(29, 0, 87);
+
+}
+
+.priceHeading{
+    font-size: 0.75rem;
+    color: teal;
+    font-weight: 600;
+}
+
+.price{
+    font-size: 1.5rem;
+}
+
+.priceAndBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceSubHeading{
+    font-size: 0.75rem;
+}
+.flist{
+    font-size: 0.65rem;
+    color: teal;
+}
+
+.priceBtn{
+    font-size: 0.75rem;
+    padding: 0.5rem;
+    background-color: teal;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.levelUp{
+    background: linear-gradient(to right bottom, rgb(6, 80, 58),rgb(36, 150, 118));
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelUpHeading{
+    font-size: 1.5rem;
+    color: white;
+    font-weight: 600;
+}
+
+.levelUpSubHeading{
+    font-size: 0.75rem;
+    color: white;
+    line-height: 1.15rem;
+    
+}
+
+.levelUpBtn{
+    background-color: rgb(6, 6, 77);
+    color: white;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.75rem;
+    width: fit-content;
+    border-radius: 0.25rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1.5rem;
+    
+}
+
+.company, .product{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.25rem;
+}
+
+.footerHeading{
+    padding: 0.5rem;
+    font-weight: 600;
+}
+
+.footerSubHeading{
+    color: grey;
+    font-size: 0.75rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.footerTitleHeading{
+    font-size: 2rem;
+}
+
+.footerSubTitleHeading{
+    font-size: 0.75rem;
+}
+
+.subsubHeading{
+    padding: 1rem 0;
+    font-size: 0.75rem;
+}
