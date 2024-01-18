@@ -8,7 +8,7 @@
 
 
 .nav-heading{
-    font-size: 1.5rem;
+    font-size: 1.85rem;
 }
 
 .landing-content{
@@ -20,13 +20,14 @@
 }
 .landing-header{
     
+    font-weight: 700;
     text-align: center;
-    font-size: 1.65rem;
+    font-size: 1.85rem;
     text-wrap: pretty;
 }
 
 .landing-subheading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     text-align: center;
     color: grey;
     line-height: 1.15rem;
@@ -75,13 +76,13 @@
 }
 
 .useCaseHeading{
-    font-size: 1.65rem;
+    font-size: 1.85rem;
     color: white;
     
 }
 .useCaseSubHead{
     
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: white;
     text-align: center;
     line-height: 1.15rem;
@@ -109,9 +110,9 @@ body{
     padding: 1rem 1.5rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 0.9rem;
-    gap: 1rem;
+    gap: 0.5rem;
     border-radius: 1rem;
     height: 200px;
 }
@@ -133,11 +134,11 @@ body{
 
 
 .howHeading{
-    font-size: 1.65rem;
+    font-size: 1.85rem;
     text-align: center;
 }
 .howSubHeading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     text-align: center;
     color: grey;
     line-height: 1.15rem;
@@ -203,7 +204,7 @@ body{
 }
 
 .benefitsSubHeading{
-    font-size: 1.65rem;
+    font-size: 1.85rem;
 }
 .benefitsHeading{
     color: teal;
@@ -244,17 +245,17 @@ body{
 }
 
 .reviewCardContent{
-    font-size: 0.65rem;
+    font-size: 0.75rem;
 }
 
 .reviewCardTitle{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     font-weight: 600;
 }
 
 .reviewCardAuthor{
     display: flex;
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     gap: 0.5rem;
     align-items: center;
 }
@@ -274,12 +275,12 @@ body{
 }
 
 .pricingHeading{
-    font-size: 1.65rem;
+    font-size: 1.85rem;
 }
 
 .pricingSubHeading{
     text-align: center;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: grey;
     line-height: 1.15rem;
 }
@@ -304,7 +305,7 @@ body{
 }
 
 .priceHeading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: teal;
     font-weight: 600;
 }
@@ -319,15 +320,15 @@ body{
     align-items: center;
 }
 .priceSubHeading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 .flist{
-    font-size: 0.65rem;
+    font-size: 0.75rem;
     color: teal;
 }
 
 .priceBtn{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     padding: 0.5rem;
     background-color: teal;
     border-radius: 0.5rem;
@@ -348,7 +349,7 @@ body{
 }
 
 .levelUpSubHeading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     color: white;
     line-height: 1.15rem;
     
@@ -357,8 +358,8 @@ body{
 .levelUpBtn{
     background-color: rgb(6, 6, 77);
     color: white;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.75rem;
+    padding: 0.5rem 0.9rem;
+    font-size: 0.9rem;
     width: fit-content;
     border-radius: 0.25rem;
 }
@@ -388,7 +389,7 @@ body{
 
 .footerSubHeading{
     color: grey;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 .title{
@@ -406,10 +407,10 @@ body{
 }
 
 .footerSubTitleHeading{
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
 
 .subsubHeading{
     padding: 1rem 0;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
 }
