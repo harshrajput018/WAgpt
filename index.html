@@ -12,39 +12,92 @@
 <body>
     <div class="landing">
         <div class="navbar">
-            <div class="nav-heading">WriteEase</div>
-            <div class="nav-elements">
+            <div class="navbartop">
+                <div class="nav-heading">WriteEase</div>
+
+            <div class="icon" id="icon" onclick="
+
+            document.getElementById('icon').style.transform='45deg'
+            console.log(document.getElementById('elems').style.opacity)
+            if(document.getElementById('elems').style.opacity===''||document.getElementById('elems').style.opacity==='0')
+            {document.getElementById('elems').style.opacity=1}
+            else{
+                document.getElementById('elems').style.opacity=0
+
+            }" >
+                <div style="background-color: black;height: 5px;width: 30px;"></div>
+                <div style="background-color: black;height: 5px;width: 30px;"></div>
+                <div style="background-color: black;height: 5px;width: 30px;"></div>
             </div>
+            </div>
+            
+            <div class="nav-elements" id="elems">
+
+                
+                <div class="nav-elem">
+                    <a onclick="  document.getElementById('elems').style.opacity='0' "
+                     href="#use-cases">Use Cases</a>
+                    <a onclick="document.getElementById('elems').style.opacity='0' " href="#howItWorks">How it Works</a>
+                    <a onclick="document.getElementById('elems').style.opacity='0' " href="#pricing">Pricing</a>
+                    <a onclick="document.getElementById('elems').style.opacity='0' " href="#footer">Contact</a>
+                </div>
+
+                <div  class="navBtn">
+                    Get Started - It's Free
+                </div>
+            </div>
+
         </div>
 
         <div class="landing-content">
-            <div class="landing-header">
-                The Power of ChatGPT on WhatsApp!
-            </div>
+            <div class="landingDeskLeft">
 
-            <div class="landing-inner">
-                <div class="landing-subheading">
-                    Whether you're a writer, marketer, or entrepreneur, WriteEase can help you out on your daily tasks.
-                </div>
-
-                <div class="sow">
-                    <div><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 44.png" alt=""></div>
-                    <div class="sow-mid"><img class="sow-elem" src="./WriteEase WhatsApp PNG/image 18.png" alt="">
-                        <div style="font-size: 0.75rem;">Start on WhatsApp</div>
+                <div>
+                    <div class="landing-header">
+                        The Power of ChatGPT on WhatsApp!
                     </div>
-                    <div><img class="sow-elem" src="./WriteEase WhatsApp PNG//Ellipse 46.png" alt=""></div>
                 </div>
 
-                <div style="height: 35vh; overflow: hidden;" class="main-image">
-                    <img src="../WriteEase WhatsApp PNG/image 21.png" alt="">
+
+                <div class="landing-inner">
+                    <div class="landing-subheading">
+                        Whether you're a writer, marketer, or entrepreneur, WriteEase can help you out on your daily
+                        tasks.
+                    </div>
+
+                    <div class="sow">
+                        <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 44.png" alt=""><div style="font-size: 0.5rem;">Marketer</div></div>
+                        <div class="sow-mid"><img class="sow-elem" src="./WriteEase WhatsApp PNG/image 18.png" alt="">
+                            <div style="font-size: 0.75rem;">Start on WhatsApp</div>
+                        </div>
+                        <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG//Ellipse 46.png" alt=""><div style="font-size: 0.5rem;">Writer</div></div>
+                    </div>
+
+                    <div class="sowDesk">
+                        <div class="sow-mid"><img class="sow-wa" src="./WriteEase WhatsApp PNG/image 18.png" alt="">
+                            <div style="font-size: 0.75rem;">Start on WhatsApp</div>
+                        </div>
+                        <div class="undersow">Get your free account today</div>
+                        <div class="sowImages">
+                            <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 46.png" alt=""><div>Writer</div></div>
+                            <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 47.png" alt=""><div>Blogger</div></div>
+                            <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 44.png" alt=""><div>Marketer</div></div>
+                            <div class="sow-container"><img class="sow-elem" src="./WriteEase WhatsApp PNG/Ellipse 45.png" alt=""><div>Freelancer</div></div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
+
+            <div class="main-image">
+                <img src="../WriteEase WhatsApp PNG/image 21.png" alt="">
+            </div>
 
         </div>
     </div>
 
-    <div class="use-cases">
+    <div id="use-cases" class="use-cases">
         <div class="useCaseHeading">
             Use Cases
         </div>
@@ -61,33 +114,39 @@
 
     </div>
 
-    <div class="howItWorks">
-        <div class="howHeading">How it works</div>
-        <div class="howSubHeading">Don't Worry, We'll keep it very simple. Get started</div>
+    <div id="howItWorks" class="howItWorks">
+        <div style="display: flex;flex-direction: column; gap: 0.5rem;">
+            <div class="howHeading">How it works</div>
+            <div class="howSubHeading">Don't Worry, We'll keep it very simple. Get started</div>
+        </div>
 
-        <div class="howContent">
-            <div class="howCard">
-                <div class="howCardTitle"></div>
-                <div class="howCardContent"></div>
+        <div class="howContentDesk">
+            <div class="howContent">
+                <div class="howCard">
+                    <div class="howCardTitle"></div>
+                    <div class="howCardContent"></div>
+                </div>
+            </div>
+
+            <div class="benefits">
+                <div class="benefitsHeading">Benefits</div>
+                <div class="benefitsSubHeading">Accessibilty and Convenience</div>
+                <div class="benefitsContent">By leveraging a widely-used messaging platform like WhatsApp, users can
+                    easily
+                    access the capabilities of ChatGPT without the need to download a new application.</div>
+
+                <div
+                    style="padding: 0.5rem 1rem; background-color: teal; width: fit-content;border-radius: 1rem; color: rgb(247, 247, 247); font-weight: 600; font-size: 0.9rem;">
+                    Get Started</div>
             </div>
         </div>
 
-        <div class="benefits">
-            <div class="benefitsHeading">Benefits</div>
-            <div class="benefitsSubHeading">Accessibilty and Convenience</div>
-            <div class="benefitsContent">By leveraging a widely-used messaging platform like WhatsApp, users can easily
-                access the capabilities of ChatGPT without the need to download a new application.</div>
-
-            <div
-                style="padding: 0.5rem 1rem; background-color: teal; width: fit-content;border-radius: 1rem; color: rgb(247, 247, 247); font-weight: 600; font-size: 0.9rem;">
-                Get Started</div>
-        </div>
 
 
 
     </div>
 
-    <div class="reviews">
+    <div id="reviews" class="reviews">
         <div class="reviewHeading">
             WriteEase <span style="color: white;">Received</span> 4.8/5 <span style="color: white;">Stars in over</span>
             10000+ Reviews
@@ -100,55 +159,71 @@
                 <img src="./WriteEase WhatsApp PNG/Ellipse 1.png" alt="">
             </div>
         </div>
+        <div class="reviewContentDesk">
+
+        </div>
     </div>
 
-    <div class="pricing">
+    <div id="pricing" class="pricing">
         <div class="pricingHeading">Pricing Plan</div>
         <div class="pricingSubHeading">Don't Worry, We'll Keep You Under Budget. Get started with free trial</div>
         <div class="pricingContent"></div>
     </div>
 
-    <div class="levelUp">
+    <div id="levelUp" class="levelUp">
         <div style="width: 80%; margin: auto;display: flex;
         flex-direction: column; gap: 1rem; text-align: center; align-items: center;">
             <div class="levelUpHeading">Ready to level-up?</div>
-            <div class="levelUpSubHeading">Write 10x faster, engage your audience, never struggle with the blank page again.</div>
+            <div class="levelUpSubHeading">Write 10x faster, engage your audience, never struggle with the blank page
+                again.</div>
             <div class="levelUpBtn">Get Started for Free</div>
         </div>
-       
+
     </div>
 
 
-    <footer style="padding: 1.5rem 0; border-bottom: 2rem teal solid; display: flex; flex-direction: column; gap: 2rem;">
-        <div class="footer">
-            <div class="company">
-                <div class="footerHeading">Company</div>
-                <div class="footerSubHeading">About Us</div>
-                <div class="footerSubHeading">Privacy Policy</div>
-                <div class="footerSubHeading">Terms of Service </div>
-                <div class="footerSubHeading">Contact Us</div>
+    <footer id="footer">
+        <div class="foot">
+            <div class="footer child">
+                <div class="company">
+                    <div class="footerHeading">Company</div>
+                    <div class="footerSubHeading">About Us</div>
+                    <div class="footerSubHeading">Privacy Policy</div>
+                    <div class="footerSubHeading">Terms of Service </div>
+                    <div class="footerSubHeading">Contact Us</div>
+                </div>
+                <div class="product">
+                    <div class="footerHeading">Product</div>
+                    <div class="footerSubHeading">Use Cases</div>
+                    <div class="footerSubHeading">How it Works</div>
+                    <div class="footerSubHeading">Pricing</div>
+                    <div class="footerSubHeading">Get Started</div>
+                </div>
             </div>
-            <div class="product">
-                <div class="footerHeading">Product</div>
-                <div class="footerSubHeading">Use Cases</div>
-                <div class="footerSubHeading">How it Works</div>
-                <div class="footerSubHeading">Pricing</div>
-                <div class="footerSubHeading">Get Started</div>
+
+            <div class="title child">
+                <div class="footerTitleHeading"><span style="font-weight: 600;">Write</span>Ease</div>
+                <div class="footerSubTitleHeading">Chat Smarter, Not Harder</div>
+                <div class="subsubHeading">Unlesh The Power of AI in Every Conversation on WhatsApp</div>
             </div>
         </div>
 
-        <div class="title">
-            <div class="footerTitleHeading"><span style="font-weight: 600;">Write</span>Ease</div>
-            <div class="footerSubTitleHeading">Chat Smarter, Not Harder</div>
-            <div class="subsubHeading">Unlesh The Power of AI in Every Conversation on WhatsApp</div>
-        </div>
-    
-        <div style="font-size: 0.75rem; text-align: center;font-weight: 700;">&#169;2024 <span style="color: teal;">WriteEase. All rights reserve</span></div>
+
+        <div class="child" style="font-size: 0.75rem; text-align: center;font-weight: 700;">&#169;2024 <span
+                style="color: teal;">WriteEase. All rights reserve</span></div>
+
     </footer>
-    
+
+
 
 
     <script src="./index.js"></script>
+
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
 </body>
 
 </html>

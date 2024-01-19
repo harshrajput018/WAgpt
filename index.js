@@ -112,16 +112,19 @@ let reviews = [
         author:'Anuraag'
     },
     {
-        title:'',
-        content:''
+        title:'Fantastic',
+        content:'Writing great marketing copy has never been this easy. Since I started using Copy.ai, I spend only a few minutes to whip myself a good piece.',
+        author:'Rakesh'
     },
     {
-        title:'',
-        content:''
+        title:'Very Easy',
+        content:'Writing great content',
+        author:'Rahul'
     },
 ]
 
 let reviewContentMobile = ``;
+let reviewContentDesktop = ``
 
 
 for(let i=0;i<2;i++)
@@ -133,7 +136,21 @@ for(let i=0;i<2;i++)
 </div>`
 }
 
+
+for(let i=0;i<reviews.length;i++)
+{
+    reviewContentDesktop+=`<div class="reviewCard">
+    <div class="reviewCardTitle">${reviews[i].title}</div>
+    <div class="reviewCardContent">${reviews[i].content}</div>
+    <div class="reviewCardAuthor"><img height='50px' src="./WriteEase WhatsApp PNG/Ellipse ${i+1}.png" alt=""><div style="font-weight:600;">${reviews[i].author}</div></div>
+</div>`
+}
+
 document.getElementsByClassName('reviewContent')[0].innerHTML=reviewContentMobile;
+
+
+document.getElementsByClassName('reviewContentDesk')[0].innerHTML=reviewContentDesktop;
+
 
 let pricingDetails = [
     {
@@ -184,3 +201,13 @@ for( let i=0; i< pricingDetails.length; i++)
 }
 
 document.getElementsByClassName('pricingContent')[0].innerHTML=priceContent;
+
+
+window.addEventListener('resize', function() {
+    if (window.innerWidth > 900) {
+      document.getElementById('elems').style.opacity=1 
+    }
+    else{
+        document.getElementById('elems').style.opacity=0
+    }
+  });
